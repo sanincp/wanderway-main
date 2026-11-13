@@ -32404,8 +32404,8 @@ textarea:invalid {
 .btn-warning:active,
 .btn-warning:hover,
 .btn-warning:focus {
-  background-color: var(--warning-hover);
-  color: var(--heading);
+  background-color: #3d2f8c;
+  color: white;
 }
 .btn-danger {
   background-color: var(--danger);
@@ -32716,7 +32716,7 @@ textarea:invalid {
   text-transform: capitalize;
   font-family: var(--font-montez) !important;
   display: inline-block;
-  color: var(--primary);
+  color: #e10886;
 }
 @media only screen and (min-width: 1200px) {
   .section-heading .sub-title {
@@ -36071,7 +36071,7 @@ picture.jarallax-img img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: var(--primary);
+  background-color: #e10886;
   content: "";
   position: absolute;
   top: -6px;
