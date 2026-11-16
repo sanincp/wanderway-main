@@ -1,0 +1,182 @@
+{
+  "bangkok": {
+    "title": "Thailand, Bangkok",
+    "overviewHeading": "Bangkok: A Vibrant City of Culture",
+    "overview": [
+      "Bangkok is a lively capital where historic temples, busy markets, broad avenues, and modern skyscrapers sit side by side. The Chao Phraya River winds through the city, passing temples, communities, and contemporary developments. Visitors can explore ornate architecture, browse local markets, pause in peaceful temple courtyards, or take in the changing city views along the waterfront. Each neighborhood has its own rhythm, giving Bangkok a mix of activity and quieter corners to discover.",
+      "Food is an important part of the Bangkok experience, from casual market stalls to restaurants serving regional Thai dishes. The city also offers shopping, cultural attractions, and opportunities to learn about Thai traditions and daily life. Whether you prefer a carefully planned sightseeing route or time to explore at your own pace, Bangkok can be shaped around your interests, travel style, and schedule."
+    ],
+    "featureHeading": "What to Experience in Bangkok",
+    "features": [
+      "Historic temples and ornate Thai architecture",
+      "Chao Phraya River views and riverside neighborhoods",
+      "Local markets and street food",
+      "Thai cuisine and dining experiences",
+      "Shopping districts and contemporary malls",
+      "Cultural attractions and local traditions",
+      "City sightseeing and neighborhood exploration",
+      "Flexible itineraries for different travel interests"
+    ],
+    "images": {
+      "hero": [
+        {
+          "src": "assets/img/destinations/thailand-doi-inthanon-1320x700.jpg",
+          "alt": "Twin pagodas at Doi Inthanon surrounded by gardens at sunset"
+        },
+        {
+          "src": "assets/img/destinations/thailand-lagoon-1320x700.jpg",
+          "alt": "Long-tail boats in a turquoise Thai lagoon framed by limestone cliffs"
+        },
+        {
+          "src": "assets/img/destinations/thailand-wat-arun-1320x700.jpg",
+          "alt": "Wat Arun temple beside the Chao Phraya River in Bangkok"
+        }
+      ],
+      "supporting": [
+        {
+          "src": "assets/img/destinations/thailand-cove-support-405x400.jpg",
+          "alt": "Clear turquoise cove and kayaking in Thailand"
+        },
+        {
+          "src": "assets/img/destinations/thailand-street-food-support-405x400.jpg",
+          "alt": "Bangkok street food market with vendors cooking at night"
+        }
+      ]
+    }
+  },
+  "paris": {
+    "title": "Paris, France",
+    "overviewHeading": "Paris, France: Iconic Views and Timeless Romance",
+    "overview": [
+      "Paris is a city of distinctive architecture, celebrated museums, elegant boulevards, and inviting neighborhood streets. Its landmarks and historic buildings create memorable views across the city, while the Seine connects many of its most recognizable areas. Visitors can spend time exploring museums and galleries, strolling through gardens, or discovering the character of different districts. Paris rewards both planned sightseeing and unhurried walks, with new details to notice around its squares, bridges, and cafés.",
+      "The city’s food and cultural scenes are part of its everyday appeal. Bakeries, cafés, restaurants, and markets offer many ways to experience French cuisine, while theaters, exhibitions, and historic sites provide options throughout the day. A Paris itinerary can focus on art and architecture, shopping, food, or classic sightseeing, with time to relax between visits and enjoy the city at a comfortable pace."
+    ],
+    "featureHeading": "What to Experience in Paris",
+    "features": [
+      "Iconic landmarks and city viewpoints",
+      "Historic architecture and grand boulevards",
+      "Museums, galleries, and art collections",
+      "Seine riverfront walks and bridges",
+      "Gardens, parks, and open squares",
+      "French cafés, bakeries, and dining",
+      "Shopping streets and local boutiques",
+      "Neighborhood walks and customizable sightseeing"
+    ],
+    "images": {
+      "hero": [
+        {
+          "src": "assets/img/destinations/paris-seine-twilight-1320x700.jpg",
+          "alt": "Eiffel Tower and the Seine at twilight"
+        },
+        {
+          "src": "assets/img/destinations/paris-eiffel-sunset-1320x700.jpg",
+          "alt": "Eiffel Tower and the Seine at sunset"
+        },
+        {
+          "src": "assets/img/destinations/paris-aerial-dusk-1320x700.jpg",
+          "alt": "Aerial view of Paris and the Eiffel Tower at dusk"
+        }
+      ],
+      "supporting": [
+        {
+          "src": "assets/img/destinations/paris-eiffel-statue-support-405x400.jpg",
+          "alt": "Eiffel Tower and winged equestrian statue at blue hour"
+        },
+        {
+          "src": "assets/img/destinations/paris-notre-dame-support-405x400.jpg",
+          "alt": "Notre-Dame Cathedral and the Seine riverwalk"
+        }
+      ]
+    }
+  },
+  "tokyo": {
+    "title": "Tokyo, Japan",
+    "overviewHeading": "Tokyo, Japan: Modern Life Meets Rich Tradition",
+    "overview": [
+      "Tokyo brings together a fast-moving urban center and places shaped by centuries of Japanese tradition. Its skyline, transport hubs, and contemporary districts sit alongside shrines, temples, gardens, and older neighborhood streets. Each area offers a different perspective on the city: some are known for shopping and entertainment, while others invite a slower visit centered on culture, architecture, or local life. Exploring more than one neighborhood helps reveal Tokyo’s variety and scale.",
+      "Food is another way to experience the city, with options ranging from casual local eateries to specialty restaurants and market streets. Visitors can also explore Japanese design, pop culture, seasonal gardens, and cultural attractions. Tokyo offers room for different travel styles, whether the priority is seeing well-known sights, discovering quieter spaces, trying local dishes, or combining city experiences with time to rest."
+    ],
+    "featureHeading": "What to Experience in Tokyo",
+    "features": [
+      "Historic shrines, temples, and cultural sites",
+      "Modern skyline and city viewpoints",
+      "Distinct neighborhoods with different atmospheres",
+      "Japanese cuisine and local dining",
+      "Shopping streets and contemporary districts",
+      "Gardens, parks, and seasonal scenery",
+      "Pop culture, design, and entertainment",
+      "Sightseeing routes tailored to personal interests"
+    ],
+    "images": {
+      "hero": [
+        {
+          "src": "assets/img/destinations/tokyo-chureito-pagoda-1320x700.jpg",
+          "alt": "Chureito Pagoda, Mount Fuji, and cherry blossoms in spring"
+        },
+        {
+          "src": "assets/img/destinations/tokyo-fuji-cityscape-1320x700.jpg",
+          "alt": "Tokyo Tower and Mount Fuji above the city at dusk"
+        },
+        {
+          "src": "assets/img/destinations/tokyo-cherry-blossom-street-1320x700.jpg",
+          "alt": "Tokyo shopping street under cherry blossoms at dusk"
+        }
+      ],
+      "supporting": [
+        {
+          "src": "assets/img/destinations/tokyo-sensoji-blossoms-support-405x400.jpg",
+          "alt": "Tokyo temple pagoda framed by cherry blossoms"
+        },
+        {
+          "src": "assets/img/destinations/tokyo-rainbow-bridge-support-405x400.jpg",
+          "alt": "Tokyo Rainbow Bridge and city skyline at sunset"
+        }
+      ]
+    }
+  },
+  "azerbaijan": {
+    "title": "Azerbaijan",
+    "overviewHeading": "Azerbaijan: Landscapes, History, and Culture",
+    "overview": [
+      "Azerbaijan offers a varied journey through historic cities, Caspian Sea scenery, and changing landscapes. In Baku, contemporary buildings and waterfront views share space with historic streets and cultural landmarks. Beyond the capital, travelers can discover different settings and regional character, creating a trip that combines city exploration with time among the country’s wider scenery. The contrast between old and new gives Azerbaijan a distinctive sense of place.",
+      "A visit can include architecture, local cuisine, cultural attractions, and opportunities to learn about Azerbaijan’s history and traditions. Travelers can shape an itinerary around Baku, regional scenery, or a combination of both, with time to explore at a relaxed pace. From urban viewpoints to quieter landscapes, Azerbaijan offers a range of experiences for visitors interested in culture, history, and discovering somewhere new."
+    ],
+    "featureHeading": "What to Experience in Azerbaijan",
+    "features": [
+      "Baku’s historic streets and cultural landmarks",
+      "Contemporary architecture and city viewpoints",
+      "Caspian Sea waterfront scenery",
+      "Regional landscapes and outdoor views",
+      "Local cuisine and dining experiences",
+      "Museums and cultural attractions",
+      "Historic sites and architectural details",
+      "Flexible itineraries combining city and regional experiences"
+    ],
+    "images": {
+      "hero": [
+        {
+          "src": "assets/img/destinations/azerbaijan-baku-waterfront-1320x700.jpg",
+          "alt": "Baku Flame Towers and waterfront Ferris wheel at night"
+        },
+        {
+          "src": "assets/img/destinations/azerbaijan-flame-towers-1320x700.jpg",
+          "alt": "Illuminated Flame Towers above Baku at night"
+        },
+        {
+          "src": "assets/img/destinations/azerbaijan-mountain-valley-1320x700.jpg",
+          "alt": "Green mountain valley in Azerbaijan"
+        }
+      ],
+      "supporting": [
+        {
+          "src": "assets/img/destinations/azerbaijan-caucasus-church-support-405x400.jpg",
+          "alt": "Historic stone church in a green Caucasus mountain landscape"
+        },
+        {
+          "src": "assets/img/destinations/azerbaijan-heydar-mosque-support-405x400.jpg",
+          "alt": "Heydar Mosque illuminated at dusk in Baku, Azerbaijan"
+        }
+      ]
+    }
+  }
+}

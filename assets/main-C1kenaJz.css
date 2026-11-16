@@ -18094,7 +18094,7 @@
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
-  --bs-warning: #ffc107;
+  --bs-warning:  #e10886;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
@@ -37516,6 +37516,9 @@ picture.jarallax-img img {
 .destination-details-wrapper {
   position: relative;
 }
+.destination-details-wrapper .swiper-slide img {
+  border-radius: 20px;
+}
 .destination-details-wrapper .destination-details-button-prev,
 .destination-details-wrapper .destination-details-button-next {
   width: 48px;
@@ -38357,7 +38360,7 @@ picture.jarallax-img img {
 }
 .destination-box-items .destination-content h3 a:hover,
 .destination-box-items .destination-content h3 a:focus {
-  color: var(--warning);
+  color:  #e10886;
 }
 .destination-box-items .destination-content ul {
   display: flex;
@@ -43575,7 +43578,8 @@ picture.jarallax-img img {
 }
 .footer-card .footer-nav li a:hover,
 .footer-card .footer-nav li a:focus {
-  color: var(--warning);
+  color: #e10886;
+  font-weight: bold;
   padding-left: 0.5rem;
 }
 .footer-card .gallery-post {
@@ -43700,7 +43704,8 @@ picture.jarallax-img img {
 }
 .copyright-wrapper .copyright a:hover,
 .copyright-wrapper .copyright a:focus {
-  color: var(--warning);
+  color: #e10886;
+  font-weight: 400;
 }
 .footer-bottom-nav {
   display: flex;
