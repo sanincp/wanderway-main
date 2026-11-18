@@ -1,5 +1,15 @@
 /* Shared mobile layout fixes for Wanderway pages */
 @media (max-width: 767.98px) {
+  /* Keep mobile copy at a readable, consistent size. */
+  body {
+    font-size: 1rem;
+  }
+  p,
+  li {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
   html,
   body {
     max-width: 100%;
@@ -389,5 +399,47 @@
   .choose-section > .container {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+  }
+
+  /* Let Instagram controls appear only after a deliberate tap/focus. */
+  .follow-instagram-card .instagram-btn {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: auto;
+  }
+  .follow-instagram-card:focus-within .instagram-btn {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  /* Keep the social image strip inside the mobile viewport with side gutters. */
+  .follow-instagram-section {
+    width: 100%;
+    left: 0;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    overflow: hidden;
+  }
+  .follow-instagram-swiper .swiper-slide {
+    box-sizing: border-box;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  /* Center destination photos and keep them within the page gutter. */
+  .destination-details-wrapper .swiper-slide,
+  .destination-details-content > .row > [class*="col-"] {
+    display: flex;
+    justify-content: center;
+  }
+  .destination-details-wrapper .swiper-slide img,
+  .destination-details-content > .row img {
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
