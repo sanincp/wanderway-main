@@ -301,7 +301,7 @@
     width: min(210px, 70vw);
   }
   .footer-card > p {
-    font-size: 14px !important;
+    font-size: 16px !important;
     line-height: 1.6;
   }
   .footer-card .footer-contact-card {
@@ -444,8 +444,8 @@
   }
   .follow-instagram-swiper .swiper-slide {
     box-sizing: border-box;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
   }
   .follow-instagram-card img {
     display: block;
@@ -481,5 +481,24 @@
   .why-choose-thumbnail .third-img {
     width: 45%;
     left: 0;
+  }
+
+  /* Center the about page's featured photo and its Instagram badge. */
+  .about-bottom-items .about-video-img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .about-bottom-items .about-video-img img {
+    display: block;
+    width: min(100%, 320px);
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .about-bottom-items .about-video-img .icon {
+    left: 50%;
   }
 }
