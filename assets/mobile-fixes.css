@@ -1,5 +1,18 @@
 /* Shared mobile layout fixes for Wanderway pages */
 @media (max-width: 767.98px) {
+  /* Bootstrap rows use negative side margins, which cancel the container gutter.
+     Keep the requested 8px page inset visible around the actual content. */
+  .container,
+  .container-fluid {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
+  .container > .row,
+  .container-fluid > .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
   /* Keep mobile copy at a readable, consistent size. */
   body {
     font-size: 1rem;
