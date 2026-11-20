@@ -7152,9 +7152,9 @@ picture.jarallax-img img {
   }
 }
 .follow-instagram-section {
-  width: 120%;
+  width: 100%;
   position: relative;
-  left: -10%;
+  left: 0;
 }
 @media only screen and (min-width: 576px) {
 }

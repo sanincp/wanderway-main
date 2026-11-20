@@ -1,0 +1,72 @@
+#wanderway-preloader {
+  --loader-pink: #E0098A;
+  --loader-bg: #3D2B9B;
+  position: fixed;
+  inset: 0;
+  z-index: 1000000;
+  min-height: 100vh;
+  min-height: 100dvh;
+  box-sizing: border-box;
+  padding: 56px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--loader-bg);
+  opacity: 1;
+  visibility: visible;
+  transition: opacity .65s ease, visibility .65s ease;
+}
+#wanderway-preloader.is-finishing #loader {
+  width: min(64vw, 300px);
+}
+#wanderway-preloader.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+#wanderway-preloader #loader {
+  position: relative;
+  width: min(88vw, 780px);
+  transition: width 1.1s cubic-bezier(.7, 0, .2, 1);
+}
+#wanderway-preloader #ink {
+  position: absolute;
+  inset: 0 auto auto 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+#wanderway-preloader #loader svg {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+#wanderway-preloader .pink { fill: var(--loader-pink); }
+#wanderway-preloader .l { fill: #fff; }
+#wanderway-preloader #plane {
+  opacity: 0;
+  transition: opacity .35s;
+}
+#wanderway-preloader #plane.flying path {
+  paint-order: stroke;
+  stroke: var(--loader-bg);
+  stroke-width: 3;
+  stroke-linejoin: round;
+}
+html.wanderway-preloader-seen #wanderway-preloader {
+  display: none !important;
+}
+@media (max-width: 600px) {
+  #wanderway-preloader { padding: 40px 20px; }
+  #wanderway-preloader.is-finishing #loader { width: 60vw; }
+}
+@media (prefers-reduced-motion: reduce) {
+  #wanderway-preloader,
+  #wanderway-preloader #loader,
+  #wanderway-preloader #plane {
+    transition-duration: .01ms !important;
+  }
+}
